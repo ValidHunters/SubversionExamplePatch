@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\space-station-14\Content.Shared\Content.Shared.csproj">
+            <Name>Content.Shared</Name>
+            <Private>False</Private>
+            <PrivateAssets>all</PrivateAssets>
+        </ProjectReference>
+        <ProjectReference Include="..\space-station-14\RobustToolbox\Robust.Shared\Robust.Shared.csproj">
+            <Name>Robust.Shared</Name>
+            <Private>False</Private>
+            <PrivateAssets>all</PrivateAssets>
+        </ProjectReference>
+    </ItemGroup>
+
+</Project>
